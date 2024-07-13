@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background: url('../Image/backgrnd.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgba(50, 50, 50, 0.6);
+}
+
+.heading{
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+    border-radius: 150px;
+    padding: 5px;
+}
+
+.title {
+    font-size: 24px;
+    margin: 0;
+
+}
+
+.div-links {
+    display: flex;
+    align-items: center;
+}
+
+.div-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    padding: 5px;
+    margin-top: 30px;
+    background: rgba(14, 13, 13, 0.6);
+    border-radius: 10px;
+}
+
+.form-section {
+    width: 45%;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: rgba(183, 183, 183, 0.1);
+    color: white;
+}
+
+button {
+    background-color: #585a58;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+button:hover {
+    background-color: #45a049;
+}
