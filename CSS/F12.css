@@ -173,3 +173,19 @@ body {
     fill: white;
 }
 
+.applicant-list{
+    background-color: #0A2A47;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 85%;
+    text-decoration: none;
+}
+
+.applicant-list:hover{
+    background-color: #2c628b;
+}
