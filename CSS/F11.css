@@ -142,3 +142,17 @@ body {
     fill: white;
 }
 
+.sidebar.active {
+    transform: translateX(-250px);
+    transition: 0.3s;
+}
+
+.nav-links li ul {
+    display: none;
+}
+
+.nav-links li ul.show {
+    display: block;
+    padding-left: 15px;
+    background-color: #0A2A47;
+}
